@@ -1,4 +1,4 @@
-# W33B00K
+# WεεBσσK
 
 - [Préface](https://github.com/weebook-org/preface/blob/master/README.md) : raison d'être du projet
 - [Introduction](https://github.com/weebook-org/introduction/blob/master/README.md) : amorce du livre
