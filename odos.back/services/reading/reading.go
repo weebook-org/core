@@ -1,6 +1,9 @@
-package services
+package reading
 
-import "net/http"
+import (
+	"net/http"
+	"odos.back/services/rest"
+)
 
 type ReadingService struct {
 }
@@ -8,7 +11,7 @@ type ReadingService struct {
 type ReadingEndPoint struct {
 }
 
-func (s *ReadingService) EndPoints() (e []EndPoint) {
+func (s *ReadingService) EndPoints() (e []rest.EndPoint) {
 	return
 }
 

@@ -6,8 +6,8 @@ import (
 )
 
 func TestCommentsPath(t *testing.T) {
-	c := new(submission.Comments)
-	if c.Pattern() != "/comments" {
+	c := submission.NewComment()
+	if c.Pattern() != "/submissions/comments" {
 		t.Error("bad path for comments end point")
 	}
 }

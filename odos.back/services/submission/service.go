@@ -1,12 +1,19 @@
 package submission
 
 import (
-	"odos.back/services"
+	"odos.back/services/rest"
 )
 
-type service struct {
+type Service struct {
+	enpoints []rest.EndPoint
 }
 
-func (s *service) endPoints() (e []services.EndPoint) {
+func NewService() (s *Service) {
+	s = new(Service)
+	s.enpoints = []rest.EndPoint{NewSubmission(), NewComment()}
 	return
+}
+
+func (s *Service) EndPoints() []rest.EndPoint {
+	return s.enpoints
 }

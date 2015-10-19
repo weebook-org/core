@@ -1,16 +1,14 @@
 package services
 
-import "net/http"
+import (
+	"net/http"
+	"odos.back/services/submission"
+)
 
-type Service interface {
-	EndPoints() []EndPoint
-}
-
-type EndPoint interface {
-	Pattern() string
-	ServeHTTP(http.ResponseWriter, *http.Request)
-}
 
 func BindServices() {
-
+	subService := submission.NewService()
+	for _,e:= range subService.EndPoints() {
+		http.Handle(e.Pattern(), e)
+	}
 }

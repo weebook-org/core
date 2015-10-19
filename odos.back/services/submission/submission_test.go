@@ -6,8 +6,8 @@ import (
 )
 
 func TestSubmissionPath(t *testing.T) {
-	s := new(submission.Submission)
-	if s.Pattern() != "/submission" {
+	s := submission.NewSubmission()
+	if s.Pattern() != "/submissions" {
 		t.Error("bad path for submission end point")
 	}
 }

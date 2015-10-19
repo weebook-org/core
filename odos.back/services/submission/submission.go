@@ -3,10 +3,15 @@ package submission
 import "net/http"
 
 const (
-	submissionPath string = "/submission"
+	submissionPath string = "/submissions"
 )
 
 type Submission struct {
+}
+
+func NewSubmission() (s *Submission) {
+	s = new(Submission)
+	return
 }
 
 func (v *Submission) Pattern() string {

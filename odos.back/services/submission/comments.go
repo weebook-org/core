@@ -3,8 +3,13 @@ package submission
 import "net/http"
 
 const (
-	commentsPath string = "/comments"
+	commentsPath string = "/submissions/comments"
 )
+
+func NewComment() (c *Comments) {
+	c = new(Comments)
+	return
+}
 
 type Comments struct {
 }
