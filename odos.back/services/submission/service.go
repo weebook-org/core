@@ -1,4 +1,4 @@
-package services
+package submission
 
 import (
 	"odos.back/services"
