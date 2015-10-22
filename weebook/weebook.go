@@ -4,9 +4,9 @@ import (
 	"github.com/bmizerany/pat"
 	"log"
 	"net/http"
-	"odos.back/reading"
-	"odos.back/submission"
-	"odos.back/vote"
+	"weebook/reading"
+	"weebook/submission"
+	"weebook/vote"
 )
 
 func main() {
