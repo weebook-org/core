@@ -1,5 +1,11 @@
 # WεεBσσK
 
+### Contenu
+
 - [Préface](https://github.com/weebook-org/preface/blob/master/README.md) : raison d'être du projet
-- [Introduction](https://github.com/weebook-org/introduction/blob/master/README.md) : amorce du livre
-- [Chapitres](https://github.com/weebook-org/chapters/blob/master/README.md) : ensemble des chapitres qui constituent le livre
+- [Contenu](https://github.com/weebook-org/core/tree/master/weebook) : contenu du livre
+
+### Implémentation
+
+- [Back-end](https://github.com/weebook-org/introduction/blob/master/README.md) : web services
+- [Front-end](https://github.com/weebook-org/content/blob/master/README.md) : interface utilisateur
