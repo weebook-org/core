@@ -4,9 +4,9 @@ import (
 	"github.com/bmizerany/pat"
 	"log"
 	"net/http"
-	"weebook/reading"
-	"weebook/submission"
-	"weebook/vote"
+	"core/weebook/reading"
+	"core/weebook/submission"
+	"core/weebook/vote"
 )
 
 func main() {
