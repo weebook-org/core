@@ -8,4 +8,4 @@
 ### Implémentation
 
 - [Back-end](https://github.com/weebook-org/core) : web services
-- [Front-end](https://github.com/weebook-org/ui/blob/master/README.md) : interface utilisateur
+- [Front-end](https://github.com/weebook-org/ui) : interface utilisateur
